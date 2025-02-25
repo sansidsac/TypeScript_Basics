@@ -1,8 +1,8 @@
-function greet(person: string, date: Date)  {
+function greet1(person: string, date: Date)  {
     console.log(`Hello ${person}, today is ${date.toDateString()}!`);
 }
 
-greet("Brendan", new Date());
+greet1("Brendan", new Date());
 
 //   Compile the code with the TypeScript compiler.
 //tsc hello.ts
